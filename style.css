@@ -1,0 +1,125 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family:'Kumbh Sans';
+  background-color:hsl(185, 75%, 39%);
+}
+
+.container{
+  position: relative;
+  border-radius: 10px;
+  width: 360px;
+  height:360px;
+  background-color: white;
+  background-image: url(bg-pattern-card.svg);
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.profile-names{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name{
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+span{
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  color:black;
+  font-size: 18px;
+}
+
+.country{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.age{
+  color: hsl(227, 10%, 46%);;
+  display: inline;
+  font-size: 15px;
+  font-weight:400;
+  margin-left: 5px;
+}
+.profile{
+  border-radius: 100%;
+  border: 5px solid white;
+}
+
+.cntry{
+  color:hsl(227, 10%, 46%) ;
+}
+
+.prof{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.line{
+  border: 1px solid hsla(0, 0%, 59%, 0.221);
+  margin-bottom: 20px;
+}
+.stats{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 360px;
+}
+.stat-3{
+  margin-right:70px ;
+}
+
+
+.stat-1, .stat-2, .stat-3{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-left: 60px;
+  font-size: 18px;
+ color:hsl(227, 10%, 46%);
+  font-weight: 400;
+  font-size: 12px;
+  
+}
+
+.top img{
+  position: absolute;
+  z-index: -1;
+  top: -200%;
+  left:-220%;
+}
+
+.bottom img{
+  position: absolute;
+  z-index: -1;
+  bottom: -220%;
+  right:-220%;
+}
+:root {
+  /* Primary Colors */
+  --dark-cyan: hsl(185, 75%, 39%);
+  --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --dark-grayish-blue: hsl(227, 10%, 46%);
+
+  /* Neutral Colors */
+  --dark-gray: hsl(0, 0%, 59%);
+}
